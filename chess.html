@@ -4,23 +4,25 @@
     </head>
     <body>
         <script>
+            document.write('<div style="width:1%;height=440px;float:left;"> <div style="width:1%;height:55px;padding-top:23px;text-align: center;">1</div><div style="width:1%;height:55px;text-align: center;">2</div><div style="width:1%;height:55px;text-align: center;">3</div><div style="width:1%;height:55px;text-align: center;">4</div><div style="width:1%;height:55px;text-align: center;">5</div><div style="width:1%;height:55px;text-align: center;">6</div><div style="width:1%;height:55px;text-align: center;">7</div><div style="width:1%;height:55px;text-align: center;">8</div></div>')
         for(var i = 1;i <= 8; i++){ mod = i % 2;
           for(var j = 1;j <= 8;j++)
           {if(mod == 0){
                         if(j%2==0){
-                            document.write('<div style="width:5%;background-color:black;height:50px;float:left;"></div>')
+                            document.write('<div style="width:5%;background-color:black;height:55px;float:left;"></div>')
                         }else{
-                            document.write('<div style="width:5%;background-color:#5a040d;height:50px;float:left;"></div>')
+                            document.write('<div style="width:5%;background-color:#5a040d;height:55px;float:left;"></div>')
                         }
+                        }
+                  else{
+                        if(j%2==0){
+                            document.write('<div style="width:5%;background-color:#5a040d;height:55px;float:left;"></div>')
                         }else{
-                            if(j%2==0){
-                            document.write('<div style="width:5%;background-color:#5a040d;height:50px;float:left;"></div>')
-                        }else{
-                            document.write('<div style="width:5%;background-color:black;height:50px;float:left;"></div>')
+                            document.write('<div style="width:5%;background-color:black;height:55px;float:left;"></div>')
                         }
                         }
                         }
-                        document.write('<div style="width:57%;background-color:white;height:50px;float:left;"></div>')
+                        document.write('<div style="width:56%;background-color:white;height:55px;float:left;"></div>')
                        }
                        document.write('<div style="width:5%;height:10px;float:left;text-align: center;">A</div><div style="width:5%;height:10px;float:left;text-align: center;">B</div><div style="width:5%;height:10px;float:left;text-align: center;">C</div><div style="width:5%;height:10px;float:left;text-align: center;">D</div><div style="width:5%;height:10px;float:left;text-align: center;">E</div><div style="width:5%;height:10px;float:left;text-align: center;">F</div><div style="width:5%;height:10px;float:left;text-align: center;">G</div><div style="width:5%;height:10px;float:left;text-align: center;">H</div>')
         
